@@ -1,0 +1,177 @@
+/* Centering and spacing for Eat Fresh section */
+.flex-col { /* This is the same as the tailwind class, but we are writing raw css */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .items-center { /* This is the same as the tailwind class, but we are writing raw css */
+    align-items: center;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem; /* Adjust as needed */
+  }
+  
+  .mt-4 {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem; /* Adjust as needed */
+  }
+  
+  .w-48 {
+    width: 12rem; /* Adjust as needed */
+  }
+  
+  .text-5xl {
+    font-size: 3rem; /* Adjust as needed */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-gray-800 {
+    color: #374151; /* Example gray, adjust as needed */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Adjust as needed */
+  }
+  
+  .text-gray-600 {
+    color: #4B5563; /* Example gray, adjust as needed */
+  }
+  
+  /* Button styles */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .mb-16 {
+    margin-bottom: 4rem; /* Adjust as needed */
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .bg-green-500 {
+    background-color: #22C55E; /* Example green, adjust as needed */
+  }
+  
+  .hover\:bg-green-600:hover, /* Note the escaped colon for the hover state */
+  .hover-bg-green-600:hover { /* This is the non-escaped version of the hover state, if you are using tailwind */
+    background-color: #16A340; /* Example darker green, adjust as needed */
+  }
+  
+  .text-green-500 {
+    color: #22C55E; /* Example green, adjust as needed */
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .hover\:bg-gray-100:hover, /* Note the escaped colon for the hover state */
+  .hover-bg-gray-100:hover { /* This is the non-escaped version of the hover state, if you are using tailwind */
+    background-color: #F3F4F6; /* Example light gray, adjust as needed */
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem; /* Adjust as needed */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
+  }
+  
+  .border {
+    border: 1px solid;
+  }
+  
+  .border-green-500 {
+    border-color: #22C55E;  /* Example green, adjust as needed */
+  }
+  
+  /* Grid and image styles */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 2rem; /* Adjust as needed */
+  }
+  
+  .gap-8 {
+    gap: 2rem; /* Adjust as needed */
+  }
+  
+  
+  .w-full {
+    width: 100%;
+  }
+  .w-30
+  {
+    width:50%;
+  }
+  
+  .h-auto {
+    height: auto;
+  }
+  
+  .rounded-t-xl {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+  
+  /* Hover effect for image overlays */
+  .relative {
+    position: relative;
+  }
+  
+  .group:hover .absolute, /* Note the escaped colon for the hover state */
+  .group-hover:hover .absolute { /* This is the non-escaped version of the hover state, if you are using tailwind */
+    opacity: 1;
+  }
+  
+  .absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    color: white;
+    padding: 1rem; /* Adjust as needed */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 200ms ease-in-out; /* Smooth transition */
+  }
+  
+  .transition-opacity {
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* ... other styles as needed */

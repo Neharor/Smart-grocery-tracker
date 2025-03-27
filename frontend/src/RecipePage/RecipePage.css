@@ -1,0 +1,43 @@
+.recipe-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .recipe-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  ul,
+  ol {
+    padding-left: 20px;
+  }
+
+  text
+  {
+    color: black;
+  }
+  
+  ul li,
+  ol li {
+    margin: 5px 0;
+  }
+  

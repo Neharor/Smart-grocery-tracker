@@ -1,0 +1,108 @@
+/* Container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 30px;
+  background-color: rgba(180, 171, 171, 0.801);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: none;
+  color: #fff;
+}
+
+/* Input group styling */
+.form-group {
+  margin-bottom: 20px;
+  margin-right:20px;
+  text-align: left;
+}
+
+/* Input field */
+.form-control {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect on inputs */
+.form-control:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #009edf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #007bff;
+}
+
+/* Button active state */
+button:active {
+  background-color: #0056b3;
+}
+
+/* Input group add-on */
+.input-group-addon i {
+  color: #3e8e41;
+  font-size: 17px;
+}
+
+/* Container padding */
+.main {
+  padding: 40px 0;
+}
+
+/* Main center styling */
+.main-center {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px 40px;
+  background: #3e8e41;
+  color: #FFF;
+  text-shadow: none;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+}
+
+/* Form styling */
+.form-actions {
+  margin-top: 20px;
+}
